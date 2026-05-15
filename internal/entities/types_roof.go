@@ -8,6 +8,7 @@ type RoofDimensions struct {
 	RakeLength   float32
 	ValleyLength float32
 	Perimeter    float32
+	IntakeVent   IntakeVent
 }
 
 type RoofDetails struct {
@@ -100,9 +101,9 @@ type ExhaustVent struct {
 }
 
 type IntakeVent struct {
-	style    string
-	quantity int
-	length   int
+	Style    string
+	Quantity int
+	Length   int
 }
 
 type ApronFlashing struct {
